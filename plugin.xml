@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated plott3r -->
+      <package
+            uri="http://www.example.org/plott3r"
+            class="de.swt.emf.plott3r.model.plott3r.Plott3rPackage"
+            genModel="model/plott3r.genmodel"/>
+   </extension>
+
+</plugin>
